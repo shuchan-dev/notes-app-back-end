@@ -5,7 +5,7 @@ const routes = require("./routes");
 const init = async () => {
   const server = Hapi.server({
     port: 5000,
-    host: process.env.NODE_ENV !== "production" ? "localhost" : "172.31.36.19",
+    host: process.env.NODE_ENV !== "production" ? "localhost" : "172.31.26.145",
     // Cross-origin resource sharing (CORS)
     // Contoh penggunaannya *(kita hanya perlu memberikan nilai header ‘Access-Control-Allow-Origin’ dengan nilai origin luar yang akan mengkonsumsi datanya (aplikasi client).
     // response.header('Access-Control-Allow-Origin', '<link atau alamat>'); )*
